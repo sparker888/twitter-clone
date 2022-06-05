@@ -1,6 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
+  images: {
+    domains: ['cloudflare-ipfs.com', 'localhost'],
+  },
 }
-
-module.exports = nextConfig
